@@ -9,7 +9,7 @@
 /**
  * 
  */
-UCLASS(EditInlineNew)
+UCLASS(EditInlineNew, DefaultToInstanced)
 class FLOWGRAPHTESTING_API UInstancedObjectBase : public UObject
 {
 	GENERATED_BODY()
